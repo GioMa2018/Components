@@ -1,0 +1,42 @@
+
+$Color_Bar: linear-gradient(#2e4053, #382b4a, #243342);
+$Color_Button_Hover: #cb4335;
+$Color_Font: cornsilk;
+$Color_Font_Hover: cornsilk;
+  
+  body {
+    margin: 0;
+    font-family: "Electrolize", sans-serif;
+    
+    .ColorText{        
+        color: $Color_Font;
+    }
+    
+    .BarNav {
+        padding: 0px;
+        height: 50px;
+        background: $Color_Bar;
+        display: flex;
+        align-items: center;
+        border: none;
+  
+      .StylesButton {
+        margin: 0;
+        display: inline;
+        padding: 10px 20px;
+        background-color: $Color_Bar;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .StylesButton:hover {
+        background-color: $Color_Button_Hover;
+        color: $Color_Font_Hover;
+      }
+  
+    }
+  }
+  
+  
