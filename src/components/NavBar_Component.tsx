@@ -23,11 +23,11 @@ function NavBar() {
                 </li>
                 <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle ColorText" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                <ul className="dropdown-menu ColorMenu">
+                    <li className='liOption'><a className="dropdown-item OptionColor" href="#">Action</a></li>
+                    <li className='liOption'><a className="dropdown-item OptionColor" href="#">Another action</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    <li className='liOption'><a className="dropdown-item OptionColor" href="#">Something else here</a></li>
                 </ul>
                 </li>
                 <li className="nav-item">

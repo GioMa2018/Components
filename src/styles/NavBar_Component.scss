@@ -1,12 +1,21 @@
 
 $Color_Bar: linear-gradient(#2e4053, #382b4a, #243342);
 $Color_Button_Hover: #cb4335;
-$Color_Font: cornsilk;
-$Color_Font_Hover: cornsilk;
-  
+$Color_Font: #EAD609;
+$Color_Font_Hover: #EAD609;
+$Color_Body: #181A1B;
+
+
   body {
     margin: 0;
     font-family: "Electrolize", sans-serif;
+    background: $Color_Body;
+    
+    .ColorMenu{
+        background: $Color_Body;
+        color: $Color_Font;
+        border-color: #cb4335;
+    }
     
     .ColorText{        
         color: $Color_Font;
@@ -35,7 +44,39 @@ $Color_Font_Hover: cornsilk;
         background-color: $Color_Button_Hover;
         color: $Color_Font_Hover;
       }
+
+      a{
+        color: $Color_Font_Hover;
+      }
+
+      a:hover{
+        color: white;
+      }
+
+        .navbar-nav .nav-link.show {
+            color: white;
+        }
+
+        .nav-link:focus, .nav-link:hover {
+            color: $Color_Font_Hover;
+        }
   
+      .liOption:hover{
+        color: white;
+        background: $Color_Body;
+      }
+
+      .OptionColor{
+        background: $Color_Body;
+      }
+
+      .OptionColor:hover{
+        background: $Color_Body;
+      }
+
+      .dropdown-divider{
+        background-color:#cb4335
+      }
     }
   }
   
